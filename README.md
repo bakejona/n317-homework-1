@@ -1,3 +1,11 @@
+## Contributors
+Jonathan Baker
+
+##Major Features
+- Initialize Next.js application
+- Inline and modular styling techniques
+- Deploy Next.js app using vercel
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
