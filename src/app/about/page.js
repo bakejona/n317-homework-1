@@ -1,7 +1,5 @@
 "use client";
 import homeStyles from "@/app/page.module.css";
-import aboutStyles from "@/app/about/about.module.css"
-
 export default function About() {
     return (
         <div>
