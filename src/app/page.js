@@ -107,26 +107,26 @@ function Home() {
         {/* Product 1 */}
         <div style={{ width: '25%', margin: '20px', backgroundColor: '#fff', border: '1px solid #ddd', padding: '20px' }}>
           <img src="https://via.placeholder.com/150" alt="Product Image" style={{ width: '100%', height: '150px', objectFit: 'cover' }} />
-          <h2 style={{ marginTop: 0 }}>Product 1</h2>
-          <p style={{ fontSize: '18px', fontWeight: 'bold', color: 'black'}}>$19.99</p>
+          <h2 style={{ marginTop: 0, color: 'black' }}>Product 1</h2>
+          <p style={{ fontSize: '18px', fontWeight: 'bold', color: 'black'}}>$49.99</p>
         </div>
         {/* Product 2 */}
         <div style={{ width: '25%', margin: '20px', backgroundColor: '#fff', border: '1px solid #ddd', padding: '20px' }}>
           <img src="https://via.placeholder.com/150" alt="Product Image" style={{ width: '100%', height: '150px', objectFit: 'cover' }} />
-          <h2 style={{ marginTop: 0 }}>Product 2</h2>
+          <h2 style={{ marginTop: 0, color: 'black' }}>Product 2</h2>
           <p style={{ fontSize: '18px', fontWeight: 'bold', color: 'black'}}>$19.99</p>
         </div>
         {/* Product 3 */}
         <div style={{ width: '25%', margin: '20px', backgroundColor: '#fff', border: '1px solid #ddd', padding: '20px' }}>
           <img src="https://via.placeholder.com/150" alt="Product Image" style={{ width: '100%', height: '150px', objectFit: 'cover' }} />
-          <h2 style={{ marginTop: 0 }}>Product 3</h2>
-          <p style={{ fontSize: '18px', fontWeight: 'bold', color: 'black'}}>$19.99</p>
+          <h2 style={{ marginTop: 0, color: 'black' }}>Product 3</h2>
+          <p style={{ fontSize: '18px', fontWeight: 'bold', color: 'black'}}>$24.99</p>
         </div>
         {/* Product 4 */}
         <div style={{ width: '25%', margin: '20px', backgroundColor: '#fff', border: '1px solid #ddd', padding: '20px' }}>
           <img src="https://via.placeholder.com/150" alt="Product Image" style={{ width: '100%', height: '150px', objectFit: 'cover' }} />
-          <h2 style={{ marginTop: 0 }}>Product 4</h2>
-          <p style={{ fontSize: '18px', fontWeight: 'bold', color: 'black'}}>$19.99</p>
+          <h2 style={{ marginTop: 0, color: 'black' }}>Product 4</h2>
+          <p style={{ fontSize: '18px', fontWeight: 'bold', color: 'black'}}>$11.99</p>
         </div>
       </main>
     </div>
