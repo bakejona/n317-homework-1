@@ -12,8 +12,11 @@ export default function About() {
             <a href="#" style={{ textDecoration: 'none', color: '#333' }}>Link 3</a>
           </nav>
           <main>
+            <div class="about-main">
             <h1>About</h1>
             <p>We sell nothing</p>
+            </div>
+            
           </main>
         </div>
         );
