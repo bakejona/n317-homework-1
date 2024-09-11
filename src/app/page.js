@@ -108,7 +108,7 @@ function Home() {
         <div style={{ width: '25%', margin: '20px', backgroundColor: '#eee5', border: '1px solid #ddd', padding: '20px' }}>
           <img src="https://via.placeholder.com/150" alt="Product Image" style={{ width: '100%', height: '150px', objectFit: 'cover' }} />
           <h2 style={{ marginTop: 0 }}>Product 1</h2>
-          <p style={{ fontSize: '18px', fontWeight: 'bold' }}>$19.99</p>
+          <p style={{ fontSize: '18px', fontWeight: 'bold', color: 'black'}}>$19.99</p>
         </div>
       </main>
     </div>
