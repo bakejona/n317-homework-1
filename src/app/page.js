@@ -96,11 +96,21 @@ export default function Home() {
 function Home() {
   return (
     <div>
-      <nav style={{ display: 'flex', justifyContent: 'space-between', backgroundColor: '#f0f0f0', padding: '1rem' }}>
+      <nav style={{ display: 'flex', justifyContent: 'space-evenly', backgroundColor: '#f0f0f0', padding: '1rem' }}>
         <a href="#" style={{ textDecoration: 'none', color: '#333', marginRight: '20px' }}>Link 1</a>
         <a href="#" style={{ textDecoration: 'none', color: '#333', marginRight: '20px' }}>Link 2</a>
         <a href="#" style={{ textDecoration: 'none', color: '#333' }}>Link 3</a>
       </nav>
+      
+      {/* Main content - product section */}
+      <main style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+        {/* Product 1 */}
+        <div style={{ width: '25%', margin: '20px', backgroundColor: '#fff', border: '1px solid #ddd', padding: '20px' }}>
+          <img src="https://via.placeholder.com/150" alt="Product Image" style={{ width: '100%', height: '150px', objectFit: 'cover' }} />
+          <h2 style={{ marginTop: 0 }}>Product 1</h2>
+          <p style={{ fontSize: '18px', fontWeight: 'bold' }}>$19.99</p>
+        </div>
+      </main>
     </div>
   );
 }
